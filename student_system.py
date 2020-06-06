@@ -138,8 +138,9 @@ class Student_System:
             else:
                 print("请输入正确操作序号....")
 
+    def start(self):
+        self.load_data()
+
 if __name__ == '__main__':
     Student_System("ABC学生系统").star()
 
-    def start(self):
-        self.load_data()
